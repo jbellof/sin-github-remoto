@@ -1,0 +1,5 @@
+Escribe la diferencia entre px y rem como unidades de medida.
+RT/
+	 "px" es una unidad de medida absoluta que se basa en píxeles fijos, mientras que "rem" es una unidad de medida relativa que se basa en el tamaño de fuente raíz y se ajusta automáticamente al contexto, 
+      lo que la hace más adecuada para el diseño web receptivo y escalable.
+      La elección entre "px" y "rem" depende de tus necesidades de diseño y de cómo quieras que los elementos respondan a diferentes tamaños de fuente y dispositivo
