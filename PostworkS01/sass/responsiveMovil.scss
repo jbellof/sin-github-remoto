@@ -1,0 +1,103 @@
+@mixin movilres{
+    nav {
+        flex-direction: column;
+        background-color: 025157;
+    }
+
+    nav * {
+        width: 100%;
+        text-align: center;
+        margin: 8px 0;
+    }
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    /* Ajusta el espaciado y los márgenes */
+    body {
+        padding: 10px;
+    }
+
+    .logros ul {
+        padding: 0;
+    }
+
+    .logros li {
+        margin-bottom: 8px;
+    }
+
+    /* Cambia el diseño de las secciones */
+    .how-it-works {
+        padding: 10px;
+    }
+
+    .feature {
+        padding: 15px;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    .how-it-works {
+        padding: 10px;
+    }
+
+    .features {
+        display: block; /* Cambiar a una disposición de bloque en lugar de una cuadrícula */
+    }
+
+    .feature {
+        padding: 15px;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+    .logros h2 {
+        font-size: 20px;
+    }
+
+    .logros li {
+        margin-bottom: 10px;
+    }
+    .logros, .logro1 {
+        width: 90%; /* Ajusta el ancho para que sea el 90% en pantallas pequeñas */
+    }
+
+
+    /* carrusel y iconos */
+    .cabeza h1 {
+        font-size: 20px;
+      }
+  
+      .cabeza p {
+        font-size: 14px;
+      }
+  
+      .cabeza button {
+        font-size: 16px;
+      }
+  
+      .cabeza .img svg {
+        max-width: 60px;
+      }
+  
+      .cabeza .img2 svg {
+        max-width: 60px;
+      }
+  
+      .cabeza .carousel {
+        max-width: 100%;
+      }
+      .how-it-works {
+        margin: 10px; /* Reducir el margen en dispositivos móviles */
+    }
+      .how-it-works button {
+        width: 100%; /* Ajustar el ancho al 100% del contenedor en dispositivos móviles */
+    }
+}
