@@ -1,0 +1,31 @@
+@mixin movilres{ 
+    body{
+        background-color: aqua;
+    }
+    .navbar-nav .nav-link {
+        text-align: center;
+        width: 100%;
+        margin: 8px 0;
+    }
+      
+    #container{
+        grid-template-columns:$configuration-container-main-colums ;
+        grid-template-rows:$configuration-container-main-rows;
+        grid-template-areas: $configuration-container-main-areas;
+        height: auto;
+        gap: 0;
+      }
+ 
+
+
+  #container-boton{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+ }
+ #container-boton{
+    margin-bottom: 8px;
+ }
+}
+
+ 
