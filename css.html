@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script async defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="indexHTML.css">
+
+
+</head>
+<header id="navbar">
+    <nav class="navbar" id="navbar"> <!-- Añade el ID específico al navbar -->
+        <ul class="navbar-list">
+            <li class="navbar-item"><a href="/">Home</a></li>
+            <li class="navbar-item"><a href="html.html">HTML</a></li>
+            <li class="navbar-item"><a href="css.html">CSS y SASS</a></li>
+            <li class="navbar-item"><a href="boostrap.html">Bootstrap</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+
+    <main>
+        <section id="container-main">
+            <div class="container-image">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" alt="HTML5">
+            </div>
+
+                <div class="primer-parrafo">
+                    <h2>CSS (Cascading Style Sheets)</h2>
+                    <p>CSS, o Hojas de Estilo en Cascada, es un lenguaje de diseño utilizado para aplicar estilos y presentación a documentos HTML. Su función principal es definir cómo se mostrará el contenido HTML en términos de diseño, formato, colores y disposición en la página.<BR><strong> (Las animaciones y estilos de este sitio fueron realizados con CSS y SASS, por ejemplo las animaciones de la barra de navegacion y el movimoento de la imagen.) </strong></p>
+                </div>
+                <div class="segundo-parrafo">
+                   <H2>SASS</H2>
+
+                    <p>SASS es un preprocesador de CSS compatible con todas sus versiones. Por lo tanto, se trata de una herramienta utilizada por los desarrolladores web para traducir un código de hojas de estilo no estándar a un código CSS estándar, legible por la mayoría de los navegadores.</p>
+
+                </div>
+                <div class="primer-video">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/2-UCIaiQydY?si=X6Jai4yphNx6750E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+
+
+        </section>
+
+        <section id="container-boton" class="container">
+          <h2>Como aplicar estilos usando CSS</h2>
+
+            <button class="btn btn-primary"data-bs-toggle="modal" data-bs-target="#exampleModal">Selectores y Propiedades</button>
+
+            <button class="btn btn-primary"data-bs-toggle="modal" data-bs-target="#Modal2">Reglas CSS</button>
+
+            <button class="btn btn-primary"data-bs-toggle="modal" data-bs-target="#Modal3">Cascada y Especificidad</button>
+
+        </section>
+        <section id="container-sign">
+            <div class="sign2">
+                <form class="container">
+
+                <h2>Estructura Basica CSS</h2>
+                <img src="https://www.aulafacil.com/uploads/cursos/350/editor/css-lecc-6_6-1.jpg" alt="HTML5">
+                    <!-- Reemplazado: 'container' es una clase de Bootstrap que proporciona un contenedor fijo. -->
+                    <!-- <h4>Sign up</h4>
+                    <div class="form-group">
+                        <label for="login">Login</label>
+                        <input type="text" class="form-control" id="login"> -->
+                        <!-- Reemplazado: 'form-control' es una clase de Bootstrap para estilizar campos de entrada. -->
+                    <!-- </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" class="form-control" id="email"> -->
+                        <!-- Reemplazado: 'form-control' es una clase de Bootstrap para estilizar campos de entrada. -->
+                    <!-- </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password"> -->
+                        <!-- Reemplazado: 'form-control' es una clase de Bootstrap para estilizar campos de entrada. -->
+                    <!-- </div>
+                    <div class="form-group">
+                        <label for="confirm">Confirm</label>
+                        <input type="password" class="form-control" id="confirm"> -->
+                        <!-- Reemplazado: 'form-control' es una clase de Bootstrap para estilizar campos de entrada. -->
+                    <!-- </div>
+                    <button type="button" class="btn btn-primary">Sign Up</button> -->
+                    <!-- Reemplazado: 'btn btn-primary' es una clase de Bootstrap para estilizar un botón primario. -->
+                    <!-- <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="remember">
+                        <label class="form-check-label" for="remember">Remember me</label>
+                    </div> -->
+
+                </form>
+            </div>
+            <div>
+                <div>
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                      <h2>3 Formas de aprender CSS</h2>
+                        <div class="accordion-item">
+                         
+                          <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                              <strong>Tutoriales en línea y recursos educativos  </strong> 
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                            <div class="accordion-body">
+                            <strong>Cursos en Línea Específicos de CSS</strong> Plataformas como Codecademy, freeCodeCamp, Udemy, y Coursera ofrecen cursos dedicados a CSS. Estos cursos van desde los fundamentos hasta técnicas avanzadas de estilización web.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                            <strong>Proyectos Prácticos y Pruebas en Tiempo Real</strong>
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                              <strong>Crear Sitios Web Simples: </strong>  La mejor manera de aprender es aplicar lo que estás estudiando. Comienza creando sitios web simples, como tu propia página personal, un portafolio o un blog. Experimenta con diferentes etiquetas y estilos para comprender su uso en la práctica.<br><strong>Ejercicios y Desafíos de Estilización:  </strong>Sitios como CodePen, CSSBattle, y Frontend Mentor ofrecen desafíos de estilización y proyectos a los que puedes enfrentarte para mejorar tus habilidades prácticas en CSS.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            <strong>Comunidad y Colaboración</strong>
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                              <strong>Foros y Comunidades en Línea: </strong> Únete a comunidades de desarrollo web, como Stack Overflow o Reddit (subreddits como r/webdev o r/learnprogramming). Puedes hacer preguntas, obtener consejos y compartir tu progreso con otros.<br><strong>Hackatones y Grupos de Estudio:</strong>Participa en eventos de desarrollo, hackatones o grupos de estudio donde podrás colaborar con otros, enfrentar desafíos y aprender en un entorno colaborativo.
+
+                              Recuerda, la práctica constante es clave para aprender CSS. Comienza con lo básico, experimenta, comete errores y, sobre todo, diviértete mientras exploras este lenguaje fundamental para el desarrollo web.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Selectores y Propiedades</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Los selectores permiten identificar qué elementos HTML serán estilizados. Por ejemplo, h1 seleccionará todos los encabezados de nivel 1 y p seleccionará todos los párrafos. Las propiedades como color, font-size y margin controlan el aspecto de estos elementos.L</p>
+
+                </div>
+               
+            </div>
+            </div>
+        </div>
+
+        <!-- Modal boton2 -->
+        <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Reglas CSS</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+            <p>Las reglas consisten en un selector y uno o más pares clave-valor que especifican los estilos a aplicar. Por ejemplo:<br><strong>h1 {<br>
+                color: blue;<br>
+                font-size: 24px;<br>
+              }
+               </strong> 
+               </p>
+              </div>
+          
+          </div>
+          </div>
+      </div>
+      <!-- Modal boton3 -->
+      <div class="modal fade" id="Modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Cascada y Especificidad</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p> La etiqueta body contiene todo el contenido visible de la página web, como texto, imágenes, enlaces, videos, formularios, entre otros. Todo lo que se muestre en el navegador se coloca dentro de la etiqueta <body>.</p>
+            </div>
+          
+        </div>
+        </div>
+    </div>
+    </main>
+
+
+</body>
+</html>

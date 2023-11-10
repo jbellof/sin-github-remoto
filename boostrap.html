@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boostrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script async defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="indexHTML.css">
+
+
+</head>
+<header id="navbar">
+    <nav class="navbar" id="navbar"> <!-- Añade el ID específico al navbar -->
+        <ul class="navbar-list">
+            <li class="navbar-item"><a href="/">Home</a></li>
+            <li class="navbar-item"><a href="html.html">HTML</a></li>
+            <li class="navbar-item"><a href="css.html">CSS y SASS</a></li>
+            <li class="navbar-item"><a href="boostrap.html">Bootstrap</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+
+    <main>
+        <section id="container-main">
+            <div class="container-image1">
+              
+              <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" alt="HTML5" >
+            </div>
+
+                <div class="primer-parrafo">
+                    <h2>¿Que  es Bootstrap?</h2>
+                    <p>Bootstrap ofrece una manera rápida y eficiente de crear interfaces web consistentes y responsivas, especialmente útil para proyectos donde se valora la agilidad en el desarrollo, la coherencia en el diseño y la compatibilidad con múltiples dispositivos.</p>
+                </div>
+                <div class="segundo-parrafo">
+                  <h2>Por que usar Bootstrap</h2>
+                    <p>Vivamus laoreet, augue sit amet ultricies efficitur, mi odio consectetur ex, ut gravida est erat congue dui. Nam pulvinar, risus eget ullamcorper malesuada, ligula diam fermentum ex, sit amet semper eros metus et diam. Phasellus id est tempor, dapibus ante vel, tempus leo. Mauris ac massa tempor, ullamcorper eros quis, aliquet mi. Pellentesque at hendrerit risus. Nulla nunc lorem, dictum ac bibendum ut, vehicula sed arcu. Praesent at nisl et metus ornare porta. Cras quis purus a sem eleifend tempus. Integer commodo lorem at odio aliquet, in scelerisque lectus elementum. Integer sit amet justo risus. Etiam consectetur libero enim, nec eleifend nisi sagittis quis. Aliquam aliquet ornare molestie. Sed et malesuada massa. Nunc efficitur volutpat velit vehicula vulputate. Donec consectetur tristique urna a volutpat.</p>
+
+                </div>
+                <div class="primer-video">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/QCw0L6FupQ0?si=eG2VlOw2HuyqjNVJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+
+
+        </section>
+
+        <section id="container-boton" class="container">
+          <h2>Como usar Bootstrap </h2>
+
+            <button class="btn btn-primary"data-bs-toggle="modal" data-bs-target="#exampleModal">Conoce la Documentación</button>
+
+            <button class="btn btn-primary"data-bs-toggle="modal" data-bs-target="#Modal2">Personaliza con Moderación</button>
+
+            <button class="btn btn-primary"data-bs-toggle="modal" data-bs-target="#Modal3">Optimiza de Archivos</button>
+
+        </section>
+        <section id="container-sign">
+          <h2>Ejemplo de un formulario con Bootstrap</h2>
+            <div class="sign1">
+              
+                <form class="container">
+                    <!-- Reemplazado: 'container' es una clase de Bootstrap que proporciona un contenedor fijo. -->
+                    <h4>Sign up</h4>
+                    <div class="form-group">
+                        <label for="login">Login</label>
+                        <input type="text" class="form-control" id="login">
+                        <!-- Reemplazado: 'form-control' es una clase de Bootstrap para estilizar campos de entrada. -->
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" class="form-control" id="email">
+                        <!-- Reemplazado: 'form-control' es una clase de Bootstrap para estilizar campos de entrada. -->
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password">
+                        <!-- Reemplazado: 'form-control' es una clase de Bootstrap para estilizar campos de entrada. -->
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm">Confirm</label>
+                        <input type="password" class="form-control" id="confirm">
+                        <!-- Reemplazado: 'form-control' es una clase de Bootstrap para estilizar campos de entrada. -->
+                    </div>
+                    <button type="button" class="btn btn-primary">Sign Up</button>
+                    <!-- Reemplazado: 'btn btn-primary' es una clase de Bootstrap para estilizar un botón primario. -->
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="remember">
+                        <label class="form-check-label" for="remember">Remember me</label>
+                    </div>
+
+                </form>
+            </div>
+            <!-- <div>
+                <div>
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                              HTML
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                            <div class="accordion-body">
+                              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                              Accordion Item #2
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                              Accordion Item #3
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div> -->
+        </section>
+
+        
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Conoce la Documentación</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>Familiarízate con la documentación oficial de Bootstrap. Entender los diferentes componentes, clases y estilos disponibles te ayudará a utilizar eficazmente las herramientas que ofrece este framework. La documentación explica detalladamente cómo implementar cada componente y proporciona ejemplos útiles.</p>
+
+              </div>
+             
+          </div>
+          </div>
+      </div>
+
+      <!-- Modal boton2 -->
+      <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Personaliza con Moderación</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+          <p>Aprovecha la capacidad de personalización de Bootstrap, pero hazlo con moderación. Anular los estilos predefinidos de Bootstrap puede ser útil para adaptar el diseño a las necesidades específicas de tu proyecto. Sin embargo, sobrescribir demasiados estilos puede complicar el mantenimiento a largo plazo y reducir la coherencia que Bootstrap ofrece.
+             </p>
+            </div>
+        
+        </div>
+        </div>
+    </div>
+    <!-- Modal boton3 -->
+    <div class="modal fade" id="Modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Optimiza el Tamaño del Archivo</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p> Bootstrap es un conjunto amplio de estilos y componentes. Para evitar cargar más código del necesario, considera utilizar la herramienta de personalización de Bootstrap para seleccionar solo los componentes que realmente necesitas. Además, minificar y comprimir los archivos CSS y JavaScript puede reducir el tamaño de los archivos, optimizando la carga de la página.</p>
+          </div>
+        
+      </div>
+      </div>
+  </div>
+    </main>
+
+</body>
+</html>
